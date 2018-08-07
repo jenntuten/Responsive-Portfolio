@@ -1,0 +1,244 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+    margin: 0;
+}
+body { 
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    text-align: center;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/concrete_seamless.png");
+    font-size: 18px;
+    min-height: 100%;
+    display: grid;
+    height: 100%;
+    margin: 0 auto;
+    overflow: scroll;
+}
+div {
+    position: relative;
+}
+.wrapper {
+    min-height: 100%;
+}
+a { 
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    font-size: 24px;
+    text-shadow: 1px 1px 1px #444444;;
+}
+header { 
+    color: #666666;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-weight: 700;
+    height: 75px;
+    margin-top:0px;
+    margin-left:0px;
+    margin-right:0px;
+    padding:20px;
+    background: #ffffff;
+    border-color: #cccccc;
+}
+.links { 
+    clear: both;
+    float:right;
+    height: 30px;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    background: #ffffff;
+}
+li {
+    display: inline-block;
+    border-right: 1px solid #ccc;
+    padding: 0 .2em;
+}
+li:last-child { 
+    border: 0; 
+} 
+.name { 
+    float:left;
+    position: absolute;
+    padding: 20px;
+    margin-top: -20px;
+    margin-left:136px;
+    height: 75px;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-weight: 700;
+    background: #4aaaa5;
+}
+main { 
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    color: #4aaaa5;
+    border-color: #cccccc;
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.aboutMe { 
+    clear: both;
+    float: left;
+    padding: 2px;
+    margin: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    width: 20%;
+    background-color: #ffffff;
+}
+p {
+    margin: 0px;
+    line-height: 24px;
+}
+.image {
+    clear: both;
+    float: left;
+    margin: 10px;
+}
+.bar { 
+    clear: both;
+    padding: .5px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background: #cccccc;
+}
+.bio {
+    padding: 2px;
+    margin: 20px;
+    font-size: 14px;
+    color: #777777;
+    text-align: left;
+}
+.formGroup {
+    padding: 20px;
+    font-size: 14px;
+    color: #777777;
+    text-align: left;
+}
+.yourName, .mail, .message, .msg {
+    width: 880px;
+    margin-top: 8px;
+    color: inherit;
+}
+.msg {
+    height: 150px;
+}
+.btn {
+    height: 40px;
+    width: 80px;
+    line-height: 2;
+    font-size: 1rem;
+    text-align: center;
+    color: #eee;
+    background-color: #4aaaa5;
+    border-color: #cccccc;
+}
+.gallery {
+    width: 600px;
+    height: 800px;
+    background-color: #fff;
+}
+.container {
+    position: relative;
+    background-color: #eee;
+}
+.bars {
+    background: #777777;
+    position: absolute;
+    float: left;
+    height: 40px;
+    width: 256px;
+    top: 150px;
+    color: #eee; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 40px;
+}
+.pictures {
+    float: left;
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    right: -20px;
+}
+.push {
+    height: 50px;
+}
+footer { 
+    clear: both;
+    position: relative;
+    height: 10px;
+    padding: 0px;
+    background: #4aaaa5;
+}
+.topBar {
+    height: 10px;
+}
+.bottomBar { 
+    height: 50px;
+    padding: 2px;
+    margin-top: 0px;
+    background: #777777;
+    color: #eee;
+    font-size: 14px;
+    line-height: 50px;
+}
+@media screen and (max-width: 980px)
+    {
+
+    }
+@media screen and (max-width: 768px)
+{
+.bar {
+    width: 680px;
+}
+.yourName, .mail, .message, .msg {
+        width: 680px;
+}
+main { width: 768px;
+    overflow-wrap: normal;}
+}
+
+@media screen and (max-width: 640px)
+{ 
+    header {
+        position: static;
+    }
+    main {
+        width: 100%;
+        overflow-wrap: normal;
+    }
+
+    footer {    
+    }
+
+
+.gallery {
+    height: 1600px;
+}
+.container {
+    width: 300px;
+}
+.bar {
+    width: 540px;
+}
+.yourName, .mail, .message, .msg {
+    width: 540px;
+    }
+}
+
+
+    
