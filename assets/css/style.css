@@ -5,7 +5,7 @@
 }
 html {
     height: 100%;
-    margin: 0;
+    margin: 0;  
 }
 body { 
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -24,7 +24,7 @@ div {
 }
 .wrapper {
     min-height: 100%;
-}
+}*/
 a { 
     color: inherit;
     text-decoration: none;
@@ -70,8 +70,10 @@ li:last-child {
     padding: 20px;
     margin-top: -20px;
     margin-left:136px;
+    width: 250px;
     height: 75px;
     color: #ffffff;
+    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 28px;
     font-weight: 700;
@@ -83,7 +85,7 @@ main {
     margin: 20px;
     color: #4aaaa5;
     border-color: #cccccc;
-    width: 960px;
+    width: 100%; /*changed from 960px*/
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -122,6 +124,8 @@ p {
     font-size: 14px;
     color: #777777;
     text-align: left;
+    /*float: left; /*added
+    max-width: 960px; /*added*/
 }
 .formGroup {
     padding: 20px;
@@ -218,13 +222,13 @@ main { width: 768px;
         position: static;
     }
     main {
-        width: 100%;
+        width: 640px;
+        
         overflow-wrap: normal;
     }
 
     footer {    
     }
-
 
 .gallery {
     height: 1600px;

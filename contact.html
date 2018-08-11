@@ -2,64 +2,72 @@
 <html lang="en">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Responsive-Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <div class="wrapper">
-        <header>
-            <div class="links">
-                <ul>
-                    <li>
-                        <a href="index.html">About </a>
-                    </li>
-                    <li>
-                        <a href="portfolio.html">Portfolio </a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="name">
-                Jennifer Tuten
-            </div>
-        </header>
-        <main>
-            <div class="aboutMe">
-                Contact
-            </div>
-            <div class="bar">
-            </div>
-            <div class="formGroup">
-                <form action="contactPage" method="post">
-                    <div>
-                        <p class="yourName">Name:</p>
-                        <input type="text" class="yourName" name="user_name" value="John Smith">
-                    </div>
-                    <div>
-                        <p class="mail">E-mail:</p>
-                        <input type="text" class="mail" name="user_mail" value="example@gmail.com">
-                    </div>
-                    <div>
-                        <p class="message">Message:</p>
-                        <textarea class="msg" name="user_message"></textarea>
-                    </div>
-                </form>
-                <br>
-                <button class="btn">Submit</button>
-            </div>
-        </main>
-        <div class="push"></div>
-    </div>
-    <footer>
-        <div class="topBar"></div>
-        <div class="bottomBar">
-            Copyright © 2018
+    <body>
+        <div class="wrapper">
+            <div class="header">
+    <div class="headerLeft">
+        <div class="nameplate">
+            Jennifer Tuten
         </div>
-    </footer>
-
+    </div>
+    <div class="headerRight">
+        <div class="links">
+            <ul>
+                <li>
+                    <a href="index.html">About </a>
+                </li>
+                <li>
+                    <a href="portfolio.html">Portfolio </a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <div class="leftSide"></div>
+            <div class="content">
+                <div class="sectionName">
+                    Contact
+                </div>
+                <div class="bar">
+                </div>
+ 
+                <div class="formGroup">
+                    <form action="contactPage" method="post">
+                        <div>
+                            <p class="yourName">Name:</p>
+                            <input type="text" class="yourName" name="user_name" value="John Smith">
+                        </div>
+                        <div>
+                            <p class="mail">E-mail:</p>
+                            <input type="text" class="mail" name="user_mail" value="example@gmail.com">
+                        </div>
+                        <div>
+                            <p class="message">Message:</p>
+                            <textarea class="msg" name="user_message"></textarea>
+                        </div>
+                    </form>
+                    <br>
+                    <button class="btn">Submit</button>
+                </div>
+            </main>
+            </div>
+            <div class="rightSide"></div>
+        <div class="footer">
+            <div class="topBar">
+            </div>
+            <div class="bottomBar"> Copyright &copy; 2018</div>
+        </div>
+        </div>
 </body>
 
 </html>
